@@ -57,7 +57,11 @@ p {
     line-height: 1;
     letter-spacing: -0.02em;
     cursor: pointer;
-    text-decoration: none;
+    transition: color .2s linear;
+}
+
+.logo:hover{
+    color: #c95e5a;
 }
 
 
@@ -226,4 +230,10 @@ section {
     letter-spacing: 0.047em;
 }
 
+.services__line {
+    display: block;
+    width: 100%;
+    height: 6px;
+    background-color: #ffffff;
+}
 /* 20 */
